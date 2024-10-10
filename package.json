@@ -1,5 +1,18 @@
 {
   "dependencies": {
-    "http-server": "^14.1.1"
-  }
+  },
+  "name": "amelo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "copyfiles": "2.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "copyfiles **/* dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

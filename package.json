@@ -9,8 +9,7 @@
     "copyfiles": "2.4.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "copyfiles **/* dist/"
+    "build": "copyfiles \"**/*\" dist/"
   },
   "author": "",
   "license": "ISC",
